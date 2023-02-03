@@ -86,32 +86,39 @@ button{
 
     width: 140px;
     height: 50px;
-    border-radius: 20px ;
+    border-radius: 50px ;
+    border: none;
     margin-bottom: 50px;
+    font-family: 'lexend deca';
+
    
 }
 
 .btn-1 {
     color: var(--Brightorange);
     background-color: var(--Verylightgray-b);
+    border: 1px solid var(--Brightorange);
     
 }
 .btn-2 {
     color: var(--Darkcyan);
     background-color: var(--Verylightgray-b);
+    border: 1px solid var(--Darkcyan);
     
 }
 .btn-3 {
     color: var(--Verydarkcyan);
     background-color: var(--Verylightgray-b);
+    border: 1px solid var(--Verydarkcyan);
     
 }
 
 .btn-1:hover{
     color: var(--Verylightgray-b);
     background-color: var(--Brightorange);
-    border-color: var(--Verylightgray-b);
+    border-color:1px solid var(--Verylightgray-b);
     cursor: pointer;
+    
 }
 .btn-2:hover{
     color: var(--Verylightgray-b);
@@ -132,6 +139,40 @@ h3{
     font-family: 'lexend deca';
     font-weight: 400;
     color: var(--Darkcyan);
+}
+
+
+@media screen and (min-width:720px) {
+
+    main{
+        width: 920px;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+
+    h1{
+        font-size: 2.5em;
+        margin-bottom: 20px;
+
+    }
+
+    p{
+        line-height: 25px;
+        font-size: 1em;
+        padding-right: 40px;
+        margin-bottom: 80px;
+    
+    }
+    button{
+        margin-bottom: 5px;
+        font-size: 1em;
+        
+       
+
+    }
 }
 
 
