@@ -29,3 +29,8 @@ modo activo
 
 
 ![active-states](https://user-images.githubusercontent.com/86001716/216481780-48498d63-50d2-46d3-9ac4-3f3405cc6a22.jpg)
+
+
+
+
+aca se puede ver el proyecto https://desafio-6columnas.netlify.app/
